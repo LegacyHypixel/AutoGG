@@ -1,10 +1,10 @@
-package uk.debb.autogg;
+package io.github.racoondog.autogg;
 
 public class AutoGGConfig {
-    public boolean ggMessages;
-    public boolean glhfMessages;
-    public boolean gfMessages;
-    public boolean lMessages;
+    public final boolean ggMessages;
+    public final boolean glhfMessages;
+    public final boolean gfMessages;
+    public final boolean lMessages;
 
     public AutoGGConfig(boolean ggMessages, boolean glhfMessages, boolean gfMessages, boolean lMessages) {
         this.ggMessages = ggMessages;

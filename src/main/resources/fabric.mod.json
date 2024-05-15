@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "autogg",
-  "version": "0.4.0",
-  "name": "AutoGG",
+  "id": "legacy-autogg",
+  "version": "1.0.0",
+  "name": "Legacy AutoGG",
   "description": "Automatically posts GG when the game ends",
   "authors": [
-    "DragonEggBedrockBreaking"
+    "Crosby"
   ],
   "contact": {
-    "homepage": "https://github.com/DragonEggBedrockBreaking/AutoGG",
-    "sources": "https://github.com/DragonEggBedrockBreaking/AutoGG",
-    "issues": "https://github.com/DragonEggBedrockBreaking/AutoGG/issues"
+    "homepage": "https://github.com/LegacyHypixel/AutoGG",
+    "sources": "https://github.com/LegacyHypixel/AutoGG",
+    "issues": "https://github.com/LegacyHypixel/AutoGG/issues"
   },
   "license": "MPL-2.0",
   "icon": "assets/autogg/icon.png",
   "environment": "client",
   "entrypoints": {
-    "main": [
-      "uk.debb.autogg.AutoGG"
+    "client": [
+      "io.github.racoondog.autogg.AutoGG"
     ]
   },
   "mixins": [
